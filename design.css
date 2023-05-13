@@ -1,0 +1,32 @@
+
+.image-link-container a {
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+.image-link-container a:hover > div > img{
+    transform: scale(2);
+    opacity: .5;
+    background-position: center;
+    visibility: visible;
+}
+.image-link-container a:hover > div > span{
+    visibility: visible;
+}
+.image-link-container div{
+    position: relative;
+}
+.image-link-container span{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    visibility: hidden;
+}
+.category a:hover, .category a:focus-visible{
+    text-shadow: -1px -1px 8px #19A7CE, -1px -1px 14px #05BFDB;
+}
+hr, .contact-cont span, .skill-container span {
+    box-shadow: 1px -1px 14px 2px #fffcfc;
+}
